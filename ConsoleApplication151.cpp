@@ -1,4 +1,3 @@
-
 int sum(int value1, int value2)
 {
 	int value3 = value1 + value2;
