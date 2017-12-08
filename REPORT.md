@@ -39,6 +39,37 @@ $ valgrind ./main
 ==2602== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0
 ```
 
+**Cppcheck**
+```
+$ cppcheck main.cpp
+
+Checking main.cpp...
+```
+**OCLint**
+```
+OCLint Report 
+
+Summary: TotalFiles=1 FilesWithViolations=1 P1=0 P2=0 P3=3 
+
+/home/user1/danya-fr0st/workspace/projects/lab15/sources/main.cpp:11:1: short variable name P3 Length of variable name `a` is 1, which is shorter than the threshold of 3 
+/home/user1/danya-fr0st/workspace/projects/lab15/sources/main.cpp:12:1: short variable name P3 Length of variable name `b` is 1, which is shorter than the threshold of 3 
+/home/user1/danya-fr0stO/workspace/projects/lab15/sources/main.cpp:5:1: redundant local variable P3 
+
+[OCLint (http://oclint.org) v0.13]
+```
+
+**cpplint**
+```
+cpplint main.cpp 
+main.cpp:0: No copyright message found. You should have a line: "Copyright [year] <Copyright Owner>" [legal/copyright] [5] 
+main.cpp:4: { should almost always be at the end of the previous line [whitespace/braces] [4] 
+main.cpp:10: { should almost always be at the end of the previous line [whitespace/braces] [4] 
+main.cpp:13: Missing space after , [whitespace/comma] [3] 
+main.cpp:13: Extra space before ( in function call [whitespace/parens] [4] 
+Done processing main.cpp 
+Total errors found: 5
+```
+
 ## Links
 
 - [Google C++ Style Guide](https://github.com/cpplint/cpplint)
