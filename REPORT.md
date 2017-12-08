@@ -14,7 +14,8 @@ $ open http://cppcheck.sourceforge.net
 - [x] 5. Используя **Valgrind** провести анализ проекта на **C++**
 - [x] 6. Составить отчет и отправить ссылку личным сообщением в **Slack**
 
-## Valgrind
+**Valgrind**
+```
 $ valgrind ./main 
 ==2602== Memcheck, a memory error detector 
 ==2602== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al. 
@@ -36,6 +37,7 @@ $ valgrind ./main
 ==2602== 
 ==2602== For counts of detected and suppressed errors, rerun with: -v 
 ==2602== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0
+```
 
 ## Links
 
