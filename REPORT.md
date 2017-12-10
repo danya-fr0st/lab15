@@ -53,7 +53,7 @@ Summary: TotalFiles=1 FilesWithViolations=1 P1=0 P2=0 P3=3
 
 /home/user1/danya-fr0st/workspace/projects/lab15/sources/main.cpp:11:1: short variable name P3 Length of variable name `a` is 1, which is shorter than the threshold of 3 
 /home/user1/danya-fr0st/workspace/projects/lab15/sources/main.cpp:12:1: short variable name P3 Length of variable name `b` is 1, which is shorter than the threshold of 3 
-/home/user1/danya-fr0stO/workspace/projects/lab15/sources/main.cpp:5:1: redundant local variable P3 
+/home/user1/danya-fr0st/workspace/projects/lab15/sources/main.cpp:5:1: redundant local variable P3 
 
 [OCLint (http://oclint.org) v0.13]
 ```
